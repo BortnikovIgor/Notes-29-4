@@ -3,4 +3,8 @@
     <string name="notes_list_desc">Список заметок</string>
     <string name="btn_create_note">Создать заметку</string>
 
+    <string name="hint_title">Заголовок</string>
+    <string name="hint_content">Содержание</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_cancel">Отмена</string>
 </resources>
