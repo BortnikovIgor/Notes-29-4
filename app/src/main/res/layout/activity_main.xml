@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="SpeakableTextPresent"/>
 
-    <!-- 2) Кнопка создания заметки внизу -->
+    <!-- 2) Существующая кнопка внизу по центру -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnCreateNote"
         style="@style/Widget.MaterialComponents.Button"
@@ -31,6 +31,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- 3) Новая плавающая кнопка в нижнем правом углу -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/btn_create_note"
+        app:srcCompat="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
